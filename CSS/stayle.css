@@ -1,0 +1,186 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.navbar
+{
+  background-color: #57c4ec;
+}
+.navbar ul li  a{
+  color: #fff;
+}
+.navbar-nav .nav-link
+{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left:15px ;
+    color: #08526D;
+    font-weight: bold ;
+    top: 0px;
+}
+.carousel-item
+ {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+
+ }
+ .carousel-one
+ {
+    background: url(../Image/imentrga.jpg);
+    background-size: cover;
+ }
+.carousel-tow
+ {
+    background: url(../Image/AFTASSé.jpg);
+    background-size: cover;
+ }
+ .carousel-three
+{
+      background: url(../Image/AFTASS.jpg);
+      background-size: cover;
+}
+ .carousel-fore
+ {
+  background: url(../Image/SURF.jpg);
+  background-size: cover;
+ }
+  .carousel-five
+ {
+  background: url(../Image/GZIRA.jpg);
+  background-size: cover;
+ }
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.titre
+{
+    color: #000000;
+    border-radius: 2px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.titre1
+{
+    color: #e9f1e9fd;
+    border-radius: 2px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.paragraphe
+ {
+    background-color: rgba(243, 236, 236, 0.89);
+      color: black;
+      border-radius: 10px; 
+ }
+ .paragraphe1{
+
+  background-color: rgba(240, 121, 74, 0.849);
+      color: black;
+      border-radius: 10px;
+      padding-left: 30px;
+ }
+.par{
+  background-image: url(../Image/rbir.jpg);
+  background-size: cover;
+}
+.par2{
+  background-image: url(../Image/kachla.jpg);
+  /* background-size: cover; */
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+.photo{
+  width: 500px;
+  height: 250px;
+
+}
+.par3
+{
+  background-image: url(../Image/sook1.jpg);
+  background-size: cover;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.footer
+{
+    background: #333;
+    color: #AAA;
+    padding-top:40px ;
+    padding-bottom: 0px;
+    bottom: 0 px;
+}
+.footer a{color: #aaa;    text-decoration: none;}
+.footer a:hover{color: #fff;}
